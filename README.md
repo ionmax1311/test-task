@@ -1,6 +1,6 @@
 # test-task
 
-https://test-d65d5.web.app/
+https://ionmax1311.github.io/test-task/dist/
 
 
 
