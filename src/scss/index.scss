@@ -1,0 +1,68 @@
+@import "variables";
+@import "mixins";
+@import "fonts";
+@import "sidebar";
+@import "content";
+
+html {
+  height: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  overflow-x: hidden;
+  font-family: "Sofia Pro", sans-serif;
+  background: $main-bg-color;
+  color: #fff;
+}
+* {
+  box-sizing: border-box;
+}
+label,
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+input {
+  width: 100%;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  li {
+    list-style-type: none;
+  }
+}
+
+a {
+  transition: 0.2s;
+  outline: none;
+  color: #fff;
+  text-decoration: none;
+}
+
+button {
+  transition: 0.2s;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.mob-hid {
+  @media (max-width: 767px) {
+    display: none !important;
+  }
+}
+
+.desc-hid {
+  @media (min-width: 767px) {
+    display: none !important;
+  }
+}

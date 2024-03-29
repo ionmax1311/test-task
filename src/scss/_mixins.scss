@@ -1,0 +1,11 @@
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+}
+
+@mixin btn {
+  background: $accent-color;
+  border-radius: 8px;
+  font-weight: bold;
+  @include flex-center;
+}

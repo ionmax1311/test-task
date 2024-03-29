@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "./Sofia Pro";
+  src: url("./SofiaProRegular.eot");
+  src: local("./Sofia Pro Regular"), local("./SofiaProRegular"),
+    url("./SofiaProRegular.eot?#iefix") format("embedded-opentype"),
+    url("./SofiaProRegular.woff2") format("woff2"),
+    url("./SofiaProRegular.woff") format("woff"),
+    url("./SofiaProRegular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "./Sofia Pro Bold";
+  src: url("./SofiaProBold.eot");
+  src: local("./Sofia Pro Bold"), local("./SofiaProBold"),
+    url("./SofiaProBold.eot?#iefix") format("embedded-opentype"),
+    url("./SofiaProBold.woff2") format("woff2"),
+    url("./SofiaProBold.woff") format("woff"),
+    url("./SofiaProBold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}

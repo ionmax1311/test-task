@@ -1,0 +1,52 @@
+.sidebar {
+  min-width: 312px;
+  border-right: 1px solid #283059;
+  padding: 24px 24px 74px 32px;
+  transition: 0.2s;
+  @media (max-width: 992px) {
+    padding-left: 24px;
+    padding-right: 24px;
+    min-width: 96px;
+  }
+  @media (max-width: 767px) {
+    display: none;
+  }
+  .logo {
+    font-size: 16px;
+    text-align: center;
+    height: 107px;
+  }
+  ul {
+    a {
+      @include flex-center;
+      font-size: 16px;
+      padding: 15px 12px;
+      border-radius: 12px;
+      font-weight: bold;
+      &:hover {
+        background-color: $accent-color;
+      }
+      @media (max-width: 992px) {
+        display: inline-block;
+        padding: 10px 12px;
+      }
+    }
+    .sidebar-link {
+      @media (max-width: 992px) {
+        display: inline-block;
+        padding: 10px 12px;
+      }
+    }
+  }
+  &-img {
+    margin-right: 12px;
+    @media (max-width: 992px) {
+      margin-right: 0;
+    }
+  }
+  span {
+    @media (max-width: 992px) {
+      display: none;
+    }
+  }
+}
