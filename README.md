@@ -1,6 +1,8 @@
-# Goalem Landing
+# test-task
 
-https://ionmax1311.github.io/goalem-landing/dist/
+https://ionmax1311.github.io/test-task/dist/
 
-## **html + scss + gulp + jquery + php**
+
+
+
 
